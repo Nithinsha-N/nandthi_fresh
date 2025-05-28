@@ -23,14 +23,33 @@
       <link rel="stylesheet" href="assets/css/icon-dukamarket.css">
       <link rel="stylesheet" href="assets/css/jquery-ui.css">
       <link rel="stylesheet" href="assets/css/main.css">
+        <style>
+    /* WhatsApp icon styling */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 1000;
+      transition: transform 0.2s ease;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+      text-decoration: none;
+      color: white;
+    }
+  </style>
    </head>
    <body>
 
 
-      <!-- Scroll-top -->
-      <button class="scroll-top scroll-to-target" data-target="html">
-         <i class="icon-chevrons-up"></i>
-      </button>
+   
       <!-- Scroll-top-end-->
 
 
@@ -571,7 +590,7 @@
                         <div class="tpfooter__widget footer-col-1 mb-50">
                            <h4 class="tpfooter__widget-title">Let Us Help You</h4>
                            <p>If you have any question, please <br> contact us at: 
-                              <a href="mailto:support@example.com"> GiNandifresh.com</a>
+                              <a href="mailto:support@example.com"> GiNandifresh@gmail.com</a>
                            </p>
                            <div class="tpfooter__widget-social mt-45">
                               <span class="tpfooter__widget-social-title mb-5">Social Media:</span>
@@ -623,7 +642,9 @@
          </div>
       </footer>
       <!-- footer-area-end -->
-      
+      <a href="https://wa.me/+919035287221" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
 
       <!-- JS here -->
       <script src="assets/js/jquery.js"></script>

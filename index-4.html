@@ -23,12 +23,32 @@
       <link rel="stylesheet" href="assets/css/icon-dukamarket.css">
       <link rel="stylesheet" href="assets/css/main.css">
    </head>
+     <style>
+    /* WhatsApp icon styling */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 1000;
+      transition: transform 0.2s ease;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+      text-decoration: none;
+      color: white;
+    }
+  </style>
    <body>
 
       <!-- Scroll-top -->
-      <button class="scroll-top scroll-to-target" data-target="html">
-         <i class="icon-chevrons-up"></i>
-      </button>
+   
       <!-- Scroll-top-end-->
 
      <!-- header-area-start -->
@@ -461,7 +481,18 @@
                            </div>
                         </div>
                      </div>
-                    
+                     <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="tpabout__item text-center mb-40">
+                           <div class="tpabout__icon mb-15">
+                              <img src="assets/img/icon/profit-estimate-compare-decide-choose-svgrepo-com (1).svg" alt="">
+                           </div>
+                           <div class="tpabout__content">
+                              <h4 class="tpabout__title">Become profitable in 15days-franchise with u </h4>
+                              <p>our proven franchise model and  <br> start earning quickly with minimal risk. Join a trusted brand, receive full support, and watch your business grow from day one 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
@@ -513,7 +544,7 @@
                         <div class="tpfooter__widget footer-col-1 mb-50">
                            <h4 class="tpfooter__widget-title">Let Us Help You</h4>
                            <p>If you have any question, please <br> contact us at: 
-                              <a href="mailto:support@example.com"> GiNandifresh.com
+                              <a href="mailto:support@example.com"> GiNandifresh@gmail.com
 </a>
                            </p>
                            <div class="tpfooter__widget-social mt-45">
@@ -566,7 +597,9 @@
          </div>
       </footer>
       <!-- footer-area-end -->
-      
+      <a href="https://wa.me/+919035287221" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
 
       <!-- JS here -->
       <script src="assets/js/jquery.js"></script>
